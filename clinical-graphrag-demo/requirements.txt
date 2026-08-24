@@ -1,0 +1,6 @@
+boto3
+requests
+faiss-cpu
+python-dotenv
+numpy
+networkx

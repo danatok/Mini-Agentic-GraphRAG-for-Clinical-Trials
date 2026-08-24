@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env
+.env
+
+# Data (regeneratable via scripts)
+clinical-graphrag-demo/data/raw/*
+clinical-graphrag-demo/data/processed/*
+clinical-graphrag-demo/data/index/*
+!clinical-graphrag-demo/data/raw/.gitkeep
+!clinical-graphrag-demo/data/processed/.gitkeep
+!clinical-graphrag-demo/data/index/.gitkeep
+
+# macOS
+.DS_Store
